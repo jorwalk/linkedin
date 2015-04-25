@@ -1,0 +1,35 @@
+
+    //
+    // metric
+    //
+    // id [varchar 12]
+    // is it private? (yes/no)
+    
+    // first-name [varchar 16]
+    // is it private? (yes/no)
+    
+    // last-name [varchar 16]
+    // is it private? (yes/no)
+    
+    // headline [varchar 255]
+    // is it undefined as private? (yes/no)
+    // does it match a position title? (yes/no)
+    // how many characters?
+    // is there a phone number in the headline? (yes/no)
+    // is there a .com / .net / .ord in the headline? (yes/no)
+    
+    // location:(name,country:(code)) [array]
+    // does the country code match yours? (yes/no)
+    // does the location name match yours? (yes/no)
+    
+    // positions [array]
+    // how many _total positions does the connection have?
+    // what is the company name and id?
+    // is it the current position?
+    // what is the start date, how many years is that from now?
+    // how many characters long is the summary?
+    // is there a phone number in the summary?
+
+    // public profile url
+
+    The Levenshtein distance is defined as the minimal number of characters you have to replace, insert or delete to transform str1 into str2. The complexity of the algorithm is O(m*n), where n and m are the length of str1 and str2 (rather good when compared to similar_text(), which is O(max(n,m)**3), but still expensive).
